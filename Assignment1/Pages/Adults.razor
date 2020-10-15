@@ -54,7 +54,14 @@ else
                 <tr>
                     <td class="font-weight-bold">@items.Id</td>
                     <td>@items.FirstName @items.LastName</td>
-                    <td>@items.HairColor</td>
+                    @if (@items.HairColor == null)
+                    {
+                        <td>unspecified</td>
+                    }
+                    else
+                    {
+                        <td>@items.HairColor</td>
+                    }
                     <td>@items.EyeColor</td>
                     <td>@items.Age</td>
                     <td>@items.Weight</td>

@@ -22,20 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50a38768-890b-4c82-8757-42d250ab5453" name="Default Changelist" comment="fixed adding and removing adults">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Assignment1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Assignment1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment1/Models/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/Models/Person.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/families.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/families.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Assignment1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Assignment1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Assignment1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Assignment1.pdb" afterDir="false" />
+    <list default="true" id="50a38768-890b-4c82-8757-42d250ab5453" name="Default Changelist" comment="fixed being able to add no hair colour to the form">
+      <change beforePath="$PROJECT_DIR$/Assignment1/Pages/Adults.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/Pages/Adults.razor" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,9 +68,9 @@
         <option value="$PROJECT_DIR$/Assignment1/adults.json" />
         <option value="$PROJECT_DIR$/Assignment1/Data/AdultService.cs" />
         <option value="$PROJECT_DIR$/Assignment1/Data/IFamilyService.cs" />
-        <option value="$PROJECT_DIR$/Assignment1/Pages/Adults.razor" />
         <option value="$PROJECT_DIR$/Assignment1/Data/FamilyService.cs" />
         <option value="$PROJECT_DIR$/Assignment1/Models/Person.cs" />
+        <option value="$PROJECT_DIR$/Assignment1/Pages/Adults.razor" />
       </list>
     </option>
   </component>
@@ -147,7 +135,7 @@
       <workItem from="1602576783143" duration="16061000" />
       <workItem from="1602602106208" duration="8196000" />
       <workItem from="1602687093605" duration="841000" />
-      <workItem from="1602749446926" duration="4053000" />
+      <workItem from="1602749446926" duration="4479000" />
     </task>
     <task id="LOCAL-00001" summary="deleted console printouts">
       <created>1602692714841</created>
@@ -163,7 +151,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602752229950</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed being able to add no hair colour to the form">
+      <created>1602753534969</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602753534969</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixed being able to add no hair colour to the form">
+      <created>1602753542878</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602753542878</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +189,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="deleted console printouts" />
     <MESSAGE value="fixed adding and removing adults" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed adding and removing adults" />
+    <MESSAGE value="fixed being able to add no hair colour to the form" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed being able to add no hair colour to the form" />
   </component>
   <component name="WindowStateProjectService">
     <state x="831" y="418" key="Github.ShareDialog" timestamp="1602672981380">
@@ -218,10 +221,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="312" y="225" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602489522861" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602692727738">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602753786862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602692727738" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602753786862" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602692678392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
