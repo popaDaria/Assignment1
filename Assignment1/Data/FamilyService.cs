@@ -43,6 +43,27 @@ namespace Assignment1.Data
             return adults;
         }
 
+        public void RemoveAdult(Adult adult)
+        {
+            Family familyToRemove = null;
+            foreach (var family in fileContext.Families)
+            {
+                if (family.Adults.Contains(adult))
+                {
+                    family.Adults.Remove(adult);
+                    if (family.Adults.Count == 0)
+                        familyToRemove = family;
+                    fileContext.SaveChanges();
+                }
+            }
+
+            if (familyToRemove != null)
+            {
+                fileContext.Families.Remove(familyToRemove);
+                fileContext.SaveChanges();
+            }
+        }
+
         private bool IsAdressUnique(Family newFamily)
         {
             IList<Family> families = fileContext.Families;

@@ -24,7 +24,7 @@ namespace Assignment1.Data
         public void AddAdult(Adult newAdult)
         {
             //maybe set adult id here
-            newAdult.Id = fileContext.Adults.Count;
+            newAdult.Id = fileContext.Adults.ElementAt(fileContext.Adults.Count - 1).Id + 1;
             fileContext.Adults.Add(newAdult);
             fileContext.SaveChanges();
         }

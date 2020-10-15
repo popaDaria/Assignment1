@@ -222,14 +222,14 @@
         {
             string[] str = firstAdult.Split(" ");
             int id1 = Int32.Parse(str.ElementAt(0));
-            Adult adult = AdultService.GetAdults().ElementAt(id1);
+            Adult adult = AdultService.GetAdults().First((adult1 => adult1.Id==id1));
             newFamily.Adults.Add(adult);
         }
         if (secondAdult != null && secondAdult!=firstAdult)
         {
             string[] str = secondAdult.Split(" ");
             int id = Int32.Parse(str.ElementAt(0));
-            Adult adult = AdultService.GetAdults().ElementAt(id);
+            Adult adult = AdultService.GetAdults().First((adult1 => adult1.Id==id));
             newFamily.Adults.Add(adult);
         }
         if(children!=null)

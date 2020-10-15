@@ -8,5 +8,6 @@ namespace Assignment1.Data
         IList<Family> GetFamilies();
         void AddFamily(Family newFamily);
         IList<int> AdultsInFamilies();
+        void RemoveAdult(Adult adult);
     }
 }
