@@ -22,8 +22,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50a38768-890b-4c82-8757-42d250ab5453" name="Default Changelist" comment="changed adults table slightly">
+    <list default="true" id="50a38768-890b-4c82-8757-42d250ab5453" name="Default Changelist" comment="default xml">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Assignment1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Assignment1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/Data/AdultService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/Data/AdultService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/Pages/Adults.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/Pages/Adults.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/adults.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/adults.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/adults.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/adults.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/families.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/families.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/families.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/families.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Pages/Adults.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Pages/Adults.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Assignment1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Assignment1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Assignment1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Assignment1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Adults.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Adults.razor.g.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +82,13 @@
         <option value="$PROJECT_DIR$/Assignment1/Pages/Index.razor" />
         <option value="$PROJECT_DIR$/Assignment1/Shared/NavMenu.razor" />
         <option value="$PROJECT_DIR$/Assignment1/Pages/AddFamily.razor" />
-        <option value="$PROJECT_DIR$/Assignment1/families.json" />
         <option value="$PROJECT_DIR$/Assignment1/adults.json" />
-        <option value="$PROJECT_DIR$/Assignment1/Data/AdultService.cs" />
         <option value="$PROJECT_DIR$/Assignment1/Data/IFamilyService.cs" />
-        <option value="$PROJECT_DIR$/Assignment1/Data/FamilyService.cs" />
         <option value="$PROJECT_DIR$/Assignment1/Models/Person.cs" />
+        <option value="$PROJECT_DIR$/Assignment1/Data/FamilyService.cs" />
         <option value="$PROJECT_DIR$/Assignment1/Pages/Adults.razor" />
+        <option value="$PROJECT_DIR$/Assignment1/families.json" />
+        <option value="$PROJECT_DIR$/Assignment1/Data/AdultService.cs" />
       </list>
     </option>
   </component>
@@ -136,6 +154,7 @@
       <workItem from="1602602106208" duration="8196000" />
       <workItem from="1602687093605" duration="841000" />
       <workItem from="1602749446926" duration="5414000" />
+      <workItem from="1602836941863" duration="2313000" />
     </task>
     <task id="LOCAL-00001" summary="deleted console printouts">
       <created>1602692714841</created>
@@ -172,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602754037718</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="default xml">
+      <created>1602836979284</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602836979284</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +224,8 @@
     <MESSAGE value="fixed adding and removing adults" />
     <MESSAGE value="fixed being able to add no hair colour to the form" />
     <MESSAGE value="changed adults table slightly" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed adults table slightly" />
+    <MESSAGE value="default xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="default xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="831" y="418" key="Github.ShareDialog" timestamp="1602672981380">
@@ -209,30 +236,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="722" y="227" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602673018097" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1602757553191">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1602839566836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602757553191" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1602757553191">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602839566836" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1602839566836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602757553191" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1602757553191">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602839566836" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1602839566836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602757553191" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1602757553191">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602839566836" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1602839566836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602757553191" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602839566836" />
     <state x="312" y="225" key="RiderGenerateDialog" timestamp="1602489522861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="312" y="225" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602489522861" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602754085851">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602836990510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602754085851" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602836990510" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602692678392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

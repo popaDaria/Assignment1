@@ -550,41 +550,5 @@
     "Weight": 75,
     "Height": 172,
     "Sex": "F"
-  },
-  {
-    "JobTitle": "Fireman",
-    "Id": 47,
-    "FirstName": "Jon",
-    "LastName": "Ming",
-    "HairColor": "Black",
-    "EyeColor": "Blue",
-    "Age": 30,
-    "Weight": 70,
-    "Height": 178,
-    "Sex": "M"
-  },
-  {
-    "JobTitle": "Teacher",
-    "Id": 48,
-    "FirstName": "Xia",
-    "LastName": "Ming",
-    "HairColor": "Brown",
-    "EyeColor": "Brown",
-    "Age": 29,
-    "Weight": 65,
-    "Height": 172,
-    "Sex": "F"
-  },
-  {
-    "JobTitle": null,
-    "Id": 49,
-    "FirstName": "a",
-    "LastName": "a",
-    "HairColor": null,
-    "EyeColor": "grey",
-    "Age": 56,
-    "Weight": 67,
-    "Height": 99,
-    "Sex": "M"
   }
 ]

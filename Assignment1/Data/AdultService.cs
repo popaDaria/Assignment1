@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Assignment1.Persistance;
@@ -23,7 +24,6 @@ namespace Assignment1.Data
 
         public void AddAdult(Adult newAdult)
         {
-            //maybe set adult id here
             newAdult.Id = fileContext.Adults.ElementAt(fileContext.Adults.Count - 1).Id + 1;
             fileContext.Adults.Add(newAdult);
             fileContext.SaveChanges();
@@ -43,8 +43,19 @@ namespace Assignment1.Data
 
         public void RemoveAdult(Adult adult)
         {
-            fileContext.Adults.Remove(adult);
-            fileContext.SaveChanges();
+            int idToFind = adult.Id;
+            int position = -1;
+            for (int i=0; i<fileContext.Adults.Count;i++)
+            {
+                if (fileContext.Adults.ElementAt(i).Id == idToFind)
+                    position = i;
+            }
+
+            if (position != -1)
+            {
+                fileContext.Adults.RemoveAt(position);
+                fileContext.SaveChanges();
+            }
         }
     }
 }
